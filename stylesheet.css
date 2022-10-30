@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 150px;
+    background-color: #f8f9fe;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+
+}
+
+.icon {
+    width: 140px;
+    height: 43px;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(red, rgb(15, 0, 128));
+}
+
+.loginIcon {
+    display: flex;
+}
+
+.ppItem {
+    display: flex;
+    list-style: none;
+    width: 420px;
+    justify-content: space-around;
+    font-size: 19px;
+
+
+}
+
+.burgar-pagePart,
+.burgar-pagePart {
+    display: none;
+}
+
+.navComp {
+    display: flex;
+    width: 520px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.opLogin {
+    list-style: none;
+    display: none;
+}
+
+.burgar {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.ppItem li:hover {
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.userProfile {
+    width: 100%;
+    margin: 10px;
+    height: 190px;
+    display: flex;
+    border-radius: 8px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userPic {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: wheat;
+}
+
+.userInfo {
+    height: 170px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.userName {
+    font-size: 45px;
+}
+
+.userAddre {
+    font-size: 18px;
+    color: grey;
+}
+
+.userFS button {
+    color: purple;
+    background-color: transparent;
+    border: transparent;
+    margin-right: 5px;
+}
+
+.allToIn {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.invest-card {
+    width: 35%;
+}
+
+.newInvest {
+    width: 90%;
+    height: 360px;
+    padding: 5%;
+    border: 1px solid grey;
+    box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%);
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.investCash {
+    font-size: 2.2rem;
+    color: plum;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+
+}
+
+.investCash input {
+    background-color: transparent;
+    border: transparent;
+    font-size: 2.2rem;
+    width: 50px;
+    color: plum;
+
+}
+
+.investCash p {
+    font-size: 14px;
+    color: gray;
+}
+
+.investAsset,
+.investTime {
+    font-size: 1.7rem;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+
+}
+
+.investAsset p,
+.investTime p {
+    font-size: 18px;
+    color: gray;
+
+}
+
+.investAsset input,
+.investTime input {
+    background-color: transparent;
+    border: transparent;
+    font-size: 1.8rem;
+    width: 50px;
+    color: gray;
+
+}
+
+.investME button {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.investME {
+    font-size: large;
+    color: grey;
+    text-align: center;
+}
+
+.investDone {
+    width: 90%;
+    height: 800px;
+    padding: 5%;
+}
+
+.investDone h1 {
+    font-size: 2.2rem;
+}
+
+.investDone {
+    font-size: small;
+}
+
+.investare_cash {
+
+    margin-top: 20px;
+}
+
+.investare_cash :first-child {
+    font-size: 2rem;
+
+
+}
+
+.investare_cash :last-child {
+    font-size: medium;
+    color: gray;
+}
+
+.investare_des ul {
+    list-style: none;
+}
+
+.investMore {
+    width: 80%;
+    margin: 0 10%;
+    height: 45px;
+    font-size: 1.5rem;
+    background-color: aqua;
+    border-radius: 5px;
+
+}
+
+.investAre {
+    border: 1px solid rgba(0, 0, 0, .05);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+   
+    border-radius: 8px;
+    background-color: #f8f9fe;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.main-part {
+    width: 60%;
+    padding-right: 5%;
+}
+
+.video {
+    width: 100%;
+    height: 325px;
+    border: 1px solid rgba(0, 0, 0, .05);
+
+
+}
+
+.YG-button ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    height: 60px;
+    padding: 0 5px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .05);
+
+}
+
+.mainParts-but {
+    margin-top: 40px;
+}
+
+.P-D-U-C {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.P-D-U-C button {
+    width: 130px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 8px;
+}
+
+.P-D-U-C button:hover {
+
+    color: blueviolet;
+    background-color: #f8f9fe;
+    border: 2px solid blueviolet;
+}
+
+#pitchPart {
+    width: 100%;
+    height: 700px;
+    border: 1px solid rgba(0, 0, 0, .05);
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, .05);
+
+}
+
+.pitch1 {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    font-size: large;
+    border-bottom: 1px solid grey;
+}
+
+.pitch1 button {
+    width: 200px;
+    height: 34px;
+    font-size: 13px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 8px;
+}
+
+.pitch2 {
+    width: 90%;
+    margin: 30px 0 0 0;
+    height: 85px;
+    padding: 0 5%;
+    text-align: justify;
+    border-bottom: 1px solid grey;
+}
+
+.pitch2 h3 {
+    margin-bottom: 5px;
+
+}
+.pitch3{
+    width: 90%;
+height: 111px;
+padding: 0 5%;
+margin-top: 19px;
+}
+.pitch3 p{
+    font-size: 17px;
+    color: black;
+}
+.pitch3 h1{
+    font-size: 40px;
+}
+.pitch4{
+    
+    width: 95%;
+    height: 280px;
+    padding: 0 2.5%;
+  
+}
+.pitch4 ul{
+    margin: 7px 0 0 0;
+
+    color: gray;
+}
+.pitch4 ul li{
+margin-bottom: 4px;
+}
+.pitch5 ,.pitch6{
+    width: 100%;
+    height: 500px;
+    font-size: large;
+}
+.pitch5 img,.pitch6 img{
+    height: 400px;
+    width: 100%;
+}
+#detailPart{
+    display: none;
+}
+#updatePart{
+    display: none;
+
+}
+#CommentsPart{
+    display: none;
+
+}
+
+
+@media only screen and (max-width:1200px) {
+    body {
+        padding: 0 10px;
+    }
+    .allToIn {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .invest-card {
+        width: 100%;
+        height: 116rem;
+      }
+      .main-part {
+        width: 90%;
+        padding: 5%;
+    }
+}
+
+@media only screen and (max-width:740px) {
+    .ppItem {
+        width: 350px;
+
+        font-size: 15px;
+    }
+    .P-D-U-C{
+        flex-direction: column;
+        height: 150px;
+    }
+    .P-D-U-C button {
+        width: 100%;
+        height: 30px;
+    }
+   
+}
+
+@media only screen and (max-width:600px) {
+    .ppItem {
+
+        display: none;
+    }
+}
